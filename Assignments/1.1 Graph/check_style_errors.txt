@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
