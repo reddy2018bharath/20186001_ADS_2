@@ -1,21 +1,17 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 2: Passed ##########
@@ -39,9 +35,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 5: Passed ##########
@@ -57,9 +51,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -67,10 +59,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
-	at GraphForm.hasEdge(GraphForm.java:130)
-	at GraphForm.addEdge(GraphForm.java:105)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -78,9 +67,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -88,9 +75,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -98,10 +83,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at GraphForm.hasEdge(GraphForm.java:130)
-	at GraphForm.addEdge(GraphForm.java:105)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -109,9 +91,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -119,19 +99,15 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -139,10 +115,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at GraphForm.hasEdge(GraphForm.java:130)
-	at GraphForm.addEdge(GraphForm.java:105)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 15: Passed ##########
@@ -158,9 +131,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -168,9 +139,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -178,10 +147,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at GraphForm.hasEdge(GraphForm.java:130)
-	at GraphForm.addEdge(GraphForm.java:105)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -189,9 +155,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -199,9 +163,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -209,9 +171,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -219,9 +179,7 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
-	at GraphForm.addEdge(GraphForm.java:109)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -229,9 +187,6 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
-	at GraphForm.hasEdge(GraphForm.java:130)
-	at GraphForm.addEdge(GraphForm.java:105)
-	at Solution.main(Solution.java:12)
+false
 ----------------------------------------
 

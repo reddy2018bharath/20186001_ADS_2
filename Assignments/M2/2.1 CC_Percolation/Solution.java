@@ -6,7 +6,7 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int size = Integer.parseInt(sc.nextLine());
-		GraphForm graph = new GraphForm(size);
+		GraphForm graph = new GraphForm(size * size);
 		while(sc.hasNext()) {
 			String[] links = sc.nextLine().split(" ");
 			graph.addEdge(Integer.parseInt(links[0]),
