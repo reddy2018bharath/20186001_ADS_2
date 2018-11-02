@@ -22,7 +22,7 @@ public final class Solution {
         for (int i = 0; i < edges; i++) {
             String[] tokens = sc.nextLine().split(" ");
             di.addEdge(Integer.parseInt(tokens[0]),
-            Integer.parseInt(tokens[1]));
+            Integer.parseInt(tokens[0]));
         }
         DirectedCycle dc = new DirectedCycle(di);
         if (dc.hasCycle()) {
