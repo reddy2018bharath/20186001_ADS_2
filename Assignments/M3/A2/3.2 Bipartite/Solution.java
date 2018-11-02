@@ -24,6 +24,7 @@ public final class Solution {
             int a = Integer.parseInt(tokens[0]);
             int b = Integer.parseInt(tokens[1]);
             g.addEdge(a, b);
+            edges--;
         }
         Bipartite b = new Bipartite(g);
         if (b.isBipartite()) {
