@@ -33,7 +33,7 @@ public final class Solution {
                 while (StdIn.hasNextLine()) {
                     String line = StdIn.readLine();
                     String[] strarr = line.split(" ");
-                    if (strarr[0].equals("0")) {
+                    if (strarr[0].equals("null")) {
                         throw new IllegalArgumentException(
                             "IllegalArgumentException");
                     }
