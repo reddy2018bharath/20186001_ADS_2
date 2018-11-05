@@ -17,7 +17,7 @@ public final class Solution {
  *
  * @param      args  The arguments
  */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int v = Integer.parseInt(sc.nextLine());
         int e = Integer.parseInt(sc.nextLine());
@@ -31,9 +31,6 @@ public final class Solution {
         }
         KruskalMST kmst = new KruskalMST(weightedGraph);
         System.out.printf("%.5f\n", kmst.weight());
-
-        
-
     }
 }
 

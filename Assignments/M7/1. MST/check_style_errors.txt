@@ -419,10 +419,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:20:29: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:35: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
