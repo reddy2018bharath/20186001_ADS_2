@@ -1,52 +1,3 @@
-/******************************************************************************
- *  Compilation:  javac EdgeWeightedGraph.java
- *  Execution:    java EdgeWeightedGraph filename.txt
- *  Dependencies: Bag.java Edge.java In.java StdOut.java
- *  Data files:   https://algs4.cs.princeton.edu/43mst/tinyEWG.txt
- *                https://algs4.cs.princeton.edu/43mst/mediumEWG.txt
- *                https://algs4.cs.princeton.edu/43mst/largeEWG.txt
- *
- *  An edge-weighted undirected graph, implemented using adjacency lists.
- *  Parallel edges and self-loops are permitted.
- *
- *  % java EdgeWeightedGraph tinyEWG.txt 
- *  8 16
- *  0: 6-0 0.58000  0-2 0.26000  0-4 0.38000  0-7 0.16000  
- *  1: 1-3 0.29000  1-2 0.36000  1-7 0.19000  1-5 0.32000  
- *  2: 6-2 0.40000  2-7 0.34000  1-2 0.36000  0-2 0.26000  2-3 0.17000  
- *  3: 3-6 0.52000  1-3 0.29000  2-3 0.17000  
- *  4: 6-4 0.93000  0-4 0.38000  4-7 0.37000  4-5 0.35000  
- *  5: 1-5 0.32000  5-7 0.28000  4-5 0.35000  
- *  6: 6-4 0.93000  6-0 0.58000  3-6 0.52000  6-2 0.40000
- *  7: 2-7 0.34000  1-7 0.19000  0-7 0.16000  5-7 0.28000  4-7 0.37000
- *
- ******************************************************************************/
-
-/**
- *  The {@code EdgeWeightedGraph} class represents an edge-weighted
- *  graph of vertices named 0 through <em>V</em> – 1, where each
- *  undirected edge is of type {@link Edge} and has a real-valued weight.
- *  It supports the following two primary operations: add an edge to the graph,
- *  iterate over all of the edges incident to a vertex. It also provides
- *  methods for returning the number of vertices <em>V</em> and the number
- *  of edges <em>E</em>. Parallel edges and self-loops are permitted.
- *  By convention, a self-loop <em>v</em>-<em>v</em> appears in the
- *  adjacency list of <em>v</em> twice and contributes two to the degree
- *  of <em>v</em>.
- *  <p>
- *  This implementation uses an adjacency-lists representation, which 
- *  is a vertex-indexed array of {@link Bag} objects.
- *  All operations take constant time (in the worst case) except
- *  iterating over the edges incident to a given vertex, which takes
- *  time proportional to the number of such edges.
- *  <p>
- *  For additional documentation,
- *  see <a href="https://algs4.cs.princeton.edu/43mst">Section 4.3</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
- */
 public class EdgeWeightedGraph {
     private static final String NEWLINE = System.getProperty("line.separator");
 
@@ -245,16 +196,4 @@ public class EdgeWeightedGraph {
         }
         return s.toString();
     }
-
-    /**
-     * Unit tests the {@code EdgeWeightedGraph} data type.
-     *
-     * @param args the command-line arguments
-     */
-    public static void main(String[] args) {
-        In in = new In(args[0]);
-        EdgeWeightedGraph G = new EdgeWeightedGraph(in);
-        StdOut.println(G);
-    }
-
 }

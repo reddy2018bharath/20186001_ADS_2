@@ -1,22 +1,3 @@
-/******************************************************************************
- *  Compilation:  javac MinPQ.java
- *  Execution:    java MinPQ < input.txt
- *  Dependencies: StdIn.java StdOut.java
- *  Data files:   https://algs4.cs.princeton.edu/24pq/tinyPQ.txt
- *  
- *  Generic min priority queue implementation with a binary heap.
- *  Can be used with a comparator instead of the natural order.
- *
- *  % java MinPQ < tinyPQ.txt
- *  E A E (6 left on pq)
- *
- *  We use a one-based array to simplify parent and child calculations.
- *
- *  Can be optimized by replacing full exchanges with half exchanges
- *  (ala insertion sort).
- *
- ******************************************************************************/
-
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
@@ -265,20 +246,4 @@ public class MinPQ<Key> implements Iterable<Key> {
             return copy.delMin();
         }
     }
-
-    /**
-     * Unit tests the {@code MinPQ} data type.
-     *
-     * @param args the command-line arguments
-     */
-   /** public static void main(String[] args) {
-        MinPQ<String> pq = new MinPQ<String>();
-        while (!StdIn.isEmpty()) {
-            String item = StdIn.readString();
-            if (!item.equals("-")) pq.insert(item);
-            else if (!pq.isEmpty()) StdOut.print(pq.delMin() + " ");
-        }
-        StdOut.println("(" + pq.size() + " left on pq)");
-    }*/
-
 }

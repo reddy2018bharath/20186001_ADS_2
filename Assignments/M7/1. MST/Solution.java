@@ -1,36 +1,37 @@
-/**
- * { item_description }.
- */
 import java.util.Scanner;
 /**
  * Class for solution.
  */
-public final class Solution {
-/**
- * Constructs the object.
- */
+final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
+        //unused constructor.
     }
-/**
- * { function_description }.
- *
- * @param      args  The arguments
- */
+    /**
+     * { Client program }.
+     *
+     * @param      args  The arguments.
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
-        int v = Integer.parseInt(sc.nextLine());
-        int e = Integer.parseInt(sc.nextLine());
-        EdgeWeightedGraph weightedGraph = new EdgeWeightedGraph(v);
-        for (int i = 0; i < e; i++) {
+        int vertices = Integer.parseInt(sc.nextLine());
+        int edges = Integer.parseInt(sc.nextLine());
+        EdgeWeightedGraph edgeWeightedGraph =
+        new EdgeWeightedGraph(vertices);
+        for (int i = 0; i < edges; i++) {
             String[] tokens = sc.nextLine().split(" ");
-            Edge edge = new Edge(Integer.parseInt(
-                tokens[0]), Integer.parseInt(
-                tokens[1]), Double.parseDouble(tokens[2]));
-            weightedGraph.addEdge(edge);
+            Edge edge = new Edge(Integer.parseInt(tokens[0]),
+                Integer.parseInt(tokens[1]), Double.parseDouble(tokens[2]));
+            edgeWeightedGraph.addEdge(edge);
         }
-        KruskalMST kmst = new KruskalMST(weightedGraph);
-        System.out.printf("%.5f\n", kmst.weight());
+        KruskalMST kruskal = new KruskalMST(edgeWeightedGraph);
+        System.out.printf("%.5f\n",  kruskal.weight());
+
     }
 }
+
+
+
 
