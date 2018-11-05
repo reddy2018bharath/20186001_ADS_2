@@ -420,16 +420,14 @@ Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:2: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:6:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:13: Line is longer than 80 characters (found 134). [LineLength]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:8: Class Solution should be declared as final. [FinalClass]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:12:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:15: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:20:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:27: Line is longer than 80 characters (found 134). [LineLength]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 7 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
