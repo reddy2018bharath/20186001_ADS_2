@@ -293,10 +293,8 @@ Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\KruskalMST.java:155: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\KruskalMST.java:157: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\KruskalMST.java:163: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\KruskalMST.java:180:29: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\KruskalMST.java:182:27: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:6: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:34: Line is longer than 80 characters (found 89). [LineLength]
@@ -382,11 +380,8 @@ Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:261:35: '{' at column 35 should have line break after. [LeftCurly]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:263:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:264: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:274:29: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:278: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\MinPQ.java:279: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 87 errors.
+Checkstyle ends with 84 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Queue.java:9: Line has trailing spaces. [RegexpSingleline]
@@ -754,7 +749,5 @@ Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\UF.java:188:92: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\UF.java:188:93: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\UF.java:194: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\UF.java:201:29: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\UF.java:207: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 35 errors.
+Checkstyle ends with 33 errors.

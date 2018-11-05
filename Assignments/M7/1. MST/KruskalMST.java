@@ -177,7 +177,7 @@ public class KruskalMST {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
+    /**public static void main(String[] args) {
         In in = new In(args[0]);
         EdgeWeightedGraph G = new EdgeWeightedGraph(in);
         KruskalMST mst = new KruskalMST(G);
@@ -185,6 +185,6 @@ public class KruskalMST {
             StdOut.println(e);
         }
         StdOut.printf("%.5f\n", mst.weight());
-    }
+    }**/
 
 }

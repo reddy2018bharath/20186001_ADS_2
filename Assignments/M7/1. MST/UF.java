@@ -198,7 +198,7 @@ public class UF {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
+  /**  public static void main(String[] args) {
         int n = StdIn.readInt();
         UF uf = new UF(n);
         while (!StdIn.isEmpty()) {
@@ -209,5 +209,5 @@ public class UF {
             StdOut.println(p + " " + q);
         }
         StdOut.println(uf.count() + " components");
-    }
+    }*/
 }

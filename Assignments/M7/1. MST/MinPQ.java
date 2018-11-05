@@ -271,7 +271,7 @@ public class MinPQ<Key> implements Iterable<Key> {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
+   /** public static void main(String[] args) {
         MinPQ<String> pq = new MinPQ<String>();
         while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
@@ -279,6 +279,6 @@ public class MinPQ<Key> implements Iterable<Key> {
             else if (!pq.isEmpty()) StdOut.print(pq.delMin() + " ");
         }
         StdOut.println("(" + pq.size() + " left on pq)");
-    }
+    }*/
 
 }
