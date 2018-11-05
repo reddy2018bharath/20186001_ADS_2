@@ -10,7 +10,7 @@ public class Solution {
 		EdgeWeightedGraph weightedGraph = new EdgeWeightedGraph(v);
 		for (int i = 0; i < e; i++) {
 			String[] tokens = sc.nextLine().split(" ");
-			Edge edge = new Edge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]), Double.parseDouble(tokens[3]));
+			Edge edge = new Edge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]), Double.parseDouble(tokens[2]));
 			weightedGraph.addEdge(edge);
 		}
 		KruskalMST kmst = new KruskalMST(weightedGraph);

@@ -432,10 +432,9 @@ Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:6:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:13: Line is longer than 80 characters (found 134). [LineLength]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:13:130: '3' is a magic number. [MagicNumber]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 9 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M7\1. MST\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
