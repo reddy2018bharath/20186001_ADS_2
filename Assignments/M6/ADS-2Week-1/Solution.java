@@ -49,7 +49,7 @@ class PageRank {
             }
         }
         final int thousand = 1000;
-        for (int k = 1; k < thousand; k++) {
+        for (int k = 1; k <= thousand; k++) {
             Double[] temppr = new Double[vertices];
             for (int i = 0; i < vertices; i++) {
                 Double newpr = 0.0;
