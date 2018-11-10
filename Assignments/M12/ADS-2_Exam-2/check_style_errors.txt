@@ -57,8 +57,9 @@ Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M12\ADS-2_Exam-2\EdgeWeightedGraph.java:170: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M12\ADS-2_Exam-2\EdgeWeightedGraph.java:172: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M12\ADS-2_Exam-2\EdgeWeightedGraph.java:184: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M12\ADS-2_Exam-2\EdgeWeightedGraph.java:189:49: '+' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 54 errors.
+Checkstyle ends with 55 errors.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M12\ADS-2_Exam-2\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M12\ADS-2_Exam-2\In.java:28: Line has trailing spaces. [RegexpSingleline]
