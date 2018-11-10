@@ -34,12 +34,15 @@ public class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
-			sc.nextLine();
 			String[] tokens = sc.nextLine().split(" ");
 			//int p = sc.nextInt();
 			//int q = sc.nextInt();
 			DijkstraSP dj= new DijkstraSP(edgeWeightedDigraph, Integer.parseInt(tokens[0]));
+			//if (dj.hasPathTo(int tokens[1])) {
 			System.out.println(dj.distTo(Integer.parseInt(tokens[1])));
+		//} else {
+			//System.out.println("No Path Found.");
+		//}
 			break;
 
 		case "ViaPaths":
@@ -48,10 +51,9 @@ public class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
-			sc.nextLine();
-			int a = sc.nextInt();
-			int b = sc.nextInt();
-			int c = sc.nextInt();
+			//sc.nextLine();
+			//String[] tokens1 = sc.nextLine().split(" ");
+			
 
 			break;
 
