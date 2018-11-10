@@ -51,7 +51,12 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Unknown Source)
+	at java.base/java.util.Scanner.next(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -59,7 +64,12 @@ Expected Output:
 370.0
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Unknown Source)
+	at java.base/java.util.Scanner.next(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at java.base/java.util.Scanner.nextInt(Unknown Source)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
