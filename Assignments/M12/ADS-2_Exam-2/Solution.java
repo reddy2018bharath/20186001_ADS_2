@@ -15,8 +15,7 @@ public class Solution {
             Edge edge = new Edge(Integer.parseInt(tokens[0]),
                 Integer.parseInt(tokens[1]), Double.parseDouble(tokens[2]));
             edgeWeightedGraph.addEdge(edge);
-            System.out.println(edgeWeightedGraph);
-        }
+        } System.out.println(edgeWeightedGraph);
 
 
 
