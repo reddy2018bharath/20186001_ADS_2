@@ -4,9 +4,6 @@ import java.util.HashMap;
  * Class for solution.
  */
 public final class Solution {
-    /**
-     * Constructs the object.
-     */
     private Solution() {
         // unused Constructor.
     }
