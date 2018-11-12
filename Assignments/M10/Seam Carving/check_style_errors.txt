@@ -170,7 +170,6 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M10\Seam Carving\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M10\Seam Carving\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M10\Seam Carving\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\BHARATH REDDY\Desktop\20186001_ADS_2\Assignments\M10\Seam Carving\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
