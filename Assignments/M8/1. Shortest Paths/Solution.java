@@ -29,6 +29,7 @@ public final class Solution {
             edgeWeightedGraph.addEdge(new Edge(
                             hash.get(line[0]), hash.get(line[1]),
                             Double.parseDouble(line[2])));
+            m--;
         }
         int queries = Integer.parseInt(sc.nextLine());
         while (queries > 0) {
