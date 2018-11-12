@@ -4,9 +4,9 @@ import java.util.Arrays;
  * { class for solution }.
  */
 public final class Solution {
-	/**
-	 * Constructs the object.
-	 */
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //unused constructor.
     }
