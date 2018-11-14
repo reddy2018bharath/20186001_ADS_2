@@ -15,7 +15,7 @@ public final class Solution {
         int k = 0;
         for (String word : words) {
             SuffixArray sa = new SuffixArray(word);
-            for (int a = 1; a < word.length(); a++) {
+            for (int a = 0; a < word.length(); a++) {
                 tst.put(sa.select(a), k++);
             }
         }
