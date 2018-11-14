@@ -1,5 +1,11 @@
 import java.util.Scanner;
+/**
+ * { Solution for class }.
+ */
 public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
     private Solution() {
     }
     /**
@@ -34,3 +40,4 @@ public final class Solution {
         return words;
     }
 }
+
