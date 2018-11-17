@@ -95,7 +95,7 @@ public class Solution {
         for (int i = 0; i < tokens.length; i++) {
         	String token = tokens[i].toLowerCase();
         	if (!st.contains(token)) {
-        		st.put(token, i);
+        		st.put(token, 1);
         	} else {
         		st.put(token, st.get(token) + 1);
         	}
