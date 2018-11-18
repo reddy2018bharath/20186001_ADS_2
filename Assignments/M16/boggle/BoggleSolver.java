@@ -73,7 +73,7 @@ public class BoggleSolver {
             return;
         }
 
-        if (str.length() >= 2 && tstDict.contains(str)) {
+        if (str.length() > 2 && tstDict.contains(str)) {
             if (!arraylist.contains(str)) {
                 arraylist.add(str);
             }
